@@ -1,5 +1,5 @@
 const imagePath = function(projectName){
-    return require(`../../posts/${projectName}/${projectName}.png`);
+    return require(`../../posts/${projectName}/${projectName}.jpg`);
 }
  const projectMarkDownPath = function(projectName){
      return require(`../../posts/${projectName}/${projectName}.md`);

@@ -12,8 +12,8 @@
         </ul>
       </navbar>
       <div class="introduction">
-        <h2>Tracie Thompson</h2>
-        <div>Hello! I'm a Chicago-based Industrial and Graphic designer with a passion for research, education, and experimentation</div>
+        <h2>Your Name Here</h2>
+        <div>Hello! I am a description where you can introduce yourself briefly to anyone coming to your page!</div>
       </div>
     </header>
     <router-view></router-view>

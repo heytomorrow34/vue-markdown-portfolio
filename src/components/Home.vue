@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <ul class="posts">
     <div v-for="project in orderedProjects" :key="project.id">
       <project-thumbnail :projectName="project.name" />
     </div>
-  </div>
+  </ul>
 </template>
 
 <script>
@@ -22,3 +22,17 @@ export default {
   }
 };
 </script>
+
+<style>
+.posts {
+  /* flex: 0 1 auto; */
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  /* align-content: space-evenly; */
+  justify-content: space-around;
+  /* overflow-x: auto;  */
+}
+</style>
